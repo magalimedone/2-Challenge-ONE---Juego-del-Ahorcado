@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>El Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">  
+  </head>
+  <body>
+    
+    <div style="text-align:center; margin: 20px 0px;">
+      <h1 class="titulo">Juego "El Ahorcado"</h1>
+      <button class="btn" id="iniciar-juego">INICIAR JUEGO</button>
+    </div>
+    <div style="text-align:center">
+      <input onkeypress="return /[A-Z]/i.test(event.key)" maxlength="16" class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra">
+      <br>
+      <button class="btn" id="nueva-palabra">AGREGAR PALABRA</button> 
+      <button class="btn" id="reiniciar-juego" >JUGAR DE NUEVO</button>
+    </div>
+    <div class="canvas">
+      <canvas id="ahorcado" height="750px" width="1200px"></canvas>
+    </div>
+    <footer class="footer">
+      <p>© 2022 - Magalí Medone | Curso de Programación ONE - Oracle Next Education</p>
+      <p>
+      <a href="mailto:magalimedone@gmail.com"><img border="0" alt="magalimedone@gmail.com" src="img/mail.png" width="38" height="38"></a>
+      <a href="https://www.instagram.com/magalimedone"><img border="0" alt="Instagram" src="img/instagram.png" width="55" height="40"></a>
+      </p>
+  </footer>
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="ahorcado.js"></script>
+  </body>
+</html>

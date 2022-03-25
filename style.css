@@ -1,0 +1,70 @@
+html, body {
+  min-height: 100%;
+}
+
+body{
+  background-image: url("https://thypix.com/wp-content/uploads/2021/06/clouds-transparent-background-61.png");
+  padding:40px;
+}
+
+.titulo {
+  padding: 15px;
+  width: 50vw;
+  margin: auto;
+  color:rgb(15, 14, 19);
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-size: 50px;
+  }
+
+
+.btn {
+  border: 0;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(72, 105, 214);
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 0.5em;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 0.5em;
+  width: 30%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.canvas {
+  height: 750px;
+  width: 1200px;
+  text-align:center;
+}
+
+#ahorcado {
+  text-align:center;
+}
+
+.footer {
+  padding: 5px 5px 5px 5px;
+  color: #030405;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+  bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
